@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+group 'org.jjunpro'
+version '0.0.0'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // JAVA IMG 라이브러리
+    compile group: 'org.imgscalr', name: 'imgscalr-lib', version: '4.2'
+}
